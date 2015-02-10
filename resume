@@ -1,0 +1,51 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Kevin Shieh</title>
+<!--   <link rel="stylesheet" href="/kevinshieh.github.io/static/css/style.css">
+   -->
+  <link rel="stylesheet" href="/kevinshieh.github.io/static/css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body class="box">
+
+<section id="banner">
+  <nav>
+    <h1 style="font-size: 30px">
+      Kevin Shieh
+    </h1>
+
+
+    <ul>
+      <li><a href="/kevinshieh.github.io/">About</a></li>
+      <li><a href="/kevinshieh.github.io/resume">Resume</a></li>
+      <li><a href="https://github.com/kevinshieh">GitHub</a></li>
+      <li><a href="/kevinshieh.github.io/contact">Contact</a></li>
+    </ul>
+  </nav>
+</section>
+
+<div class="container">
+
+  <div class="content" role="main">
+    
+
+<head>
+  <meta charset="utf-8">
+  <title>Kevin Shieh</title>
+<!--   <link rel="stylesheet" href="/kevinshieh.github.io/static/css/style.css">
+   -->
+</head>
+
+<body bgcolor="white">
+<img id="resume" src="/kevinshieh.github.io/static/KevinShieh_resume-1.png">
+</html>
+
+
+  </div>
+
+</div>
+</body>
+</html>
