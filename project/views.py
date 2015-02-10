@@ -3,7 +3,7 @@ from app import app
 
 @app.route('/')
 def about():
-    return render_template('about.html')
+    return render_template('index.html')
 
 @app.route('/resume/')
 def resume():
