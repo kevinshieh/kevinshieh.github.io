@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Kevin Shieh</title>
+<!--   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  {% block css %}{% endblock %} -->
+</head>
+
+<body class="box">
+
+<ul style="list-style-type: none; margin: 0; padding: 0;">
+  <li style="display: inline;"><a href="{{ url_for('home') }}">Home</a></li>
+  <li style="display: inline;"><a href="{{ url_for('about') }}">About</a></li>
+  <li style="display: inline;"><a href="{{ url_for('resume') }}">Resume</a></li>
+  <li style="display: inline;"><a href="https://github.com/kevinshieh">GitHub</a></li>
+  <li style="display: inline;"><a href="{{ url_for('contact') }}">Contact</a></li>
+</ul>
+
+<div class="{% block content_class %}container{% endblock content_class %}">
+
+  <div class="content" role="main">
+    {% block content %}{% endblock %}
+  </div>
+
+</div>
+<!-- <script src="{{ url_for('static', filename='js/script.js') }}"></script> -->
+</body>
+</html>
