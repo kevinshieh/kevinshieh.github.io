@@ -17,5 +17,5 @@ PROJECT_ROOT = parent_dir(APP_DIR)
 # In order to deploy to Github pages, you must build the static files to
 # the project root
 FREEZER_DESTINATION = PROJECT_ROOT
-FREEZER_BASE_URL = REPO_NAME
+FREEZER_BASE_URL = ""
 FREEZER_REMOVE_EXTRA_FILES = False  # IMPORTANT: If this is True, all app files
