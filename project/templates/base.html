@@ -9,28 +9,31 @@
 
 <body class="box">
 
-<section id="banner">
+<!-- <section id="header">
+
+</section> -->
+
+
+<section id="content">
+  <div class="{% block content_class %}container{% endblock content_class %}">
+
+    <div class="content" role="main">
+      {% block content %}{% endblock %}
+    </div>
+
+  </div>
+</section>
+
+<section id="footer">
   <nav>
-    <h1 style="font-size: 30px">
-      Kevin Shieh
-    </h1>
-
-
     <ul>
-      <li><a href="{{ url_for('about') }}">About</a></li>
-      <li><a href="{{ url_for('resume') }}">Resume</a></li>
-      <li><a href="https://github.com/kevinshieh">GitHub</a></li>
-      <li><a href="{{ url_for('contact') }}">Contact</a></li>
+      <li><a href="https://www.facebook.com/kevshieh"/><img src="{{ url_for('static', filename='facebook500.png') }}" width="30" height="30"/></li>
+      <li><a href="https://www.linkedin.com/in/kshieh"/><img src="{{ url_for('static', filename='linkedin.png') }}" width="30" height="30"/></li>
+      <li><a href="https://twitter.com/kevshieh"><img src="{{ url_for('static', filename='twitter.png') }}" width="30" height="30"/></li>
+      <li><a href="https://github.com/kevinshieh"/><img src="{{ url_for('static', filename='github.png') }}" width="30" height="30"/></li>
     </ul>
   </nav>
 </section>
 
-<div class="{% block content_class %}container{% endblock content_class %}">
-
-  <div class="content" role="main">
-    {% block content %}{% endblock %}
-  </div>
-
-</div>
 </body>
 </html>

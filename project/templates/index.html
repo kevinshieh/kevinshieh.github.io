@@ -10,10 +10,13 @@
 
 <div id="page">
 
-  <h1>About</h1>
+  <h1><a href="{{ url_for('about') }}">About</a></h1>
   <p>
     Hi im th ebest
+  </p>
 
+  <p>
+    Here is my <a href="{{ url_for('static', filename='resume.pdf') }}" style="text-decoration: none" target="_blank">resume</a>.
   </p>
 
 </div>
