@@ -18,7 +18,7 @@
   <div class="container">
 
     <div class="content" role="main">
-      
+
 
 <head>
   <meta charset="utf-8">
@@ -34,9 +34,40 @@
     Hi im th ebest
   </p>
 
-  <p>
-    Here is my <a href="/static/resume.pdf" style="text-decoration: none" target="_blank">resume</a>.
-  </p>
+  <!-- <p> -->
+    <!-- Here is my <a href="/static/resume.pdf" style="text-decoration: none" target="_blank">resume</a>. -->
+    <script type="text/javascript">
+      var rand = Math.random()
+      var emoji = if (rand < 0.1) {
+        "(☆^ー^☆)"
+      } else if (rand < 0.2) {
+        "(ヾ(´･ω･｀)"
+      } else if (rand < 0.3) {
+        " ヽ(ｏ`皿′ｏ)ﾉ"
+      } else if (rand < 0.4) {
+        "(。┰ω┰。)"
+      } else if (rand < 0.5) {
+        "＼(o￣∇￣o)/"
+      } else if (rand < 0.6) {
+        " (-'๏_๏'-)"
+      } else if (rand < 0.7) {
+        "((((；゜Д゜)))"
+      } else if (rand < 0.8) {
+        " o(╥﹏╥)o"
+      } else if (rand < 0.9) {
+        "（*´▽｀*）"
+      } else if (rand <= 1.0) {
+        " (｀・ω・´)"
+      }
+
+      document.getElementById('emoji').innerHTML = emoji;
+    </script>
+
+    <div id="emoji"></div>
+
+
+
+  <!-- </p> -->
 
 </div>
 </body>
